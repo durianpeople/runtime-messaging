@@ -1,0 +1,19 @@
+{
+    "name": "durianpeople/laravel-runtime-messaging",
+    "description": "Intra-messaging system with runtime storage",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Setya Wibawa",
+            "email": "durianpeople@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Durianpeople\\Messaging": "src/"
+        }
+    }
+}
