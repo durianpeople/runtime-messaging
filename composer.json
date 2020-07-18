@@ -2,7 +2,6 @@
     "name": "durianpeople/runtime-messaging",
     "description": "Intra-messaging system with runtime storage",
     "type": "library",
-    "version": "1.0.0",
     "authors": [
         {
             "name": "Setya Wibawa",
