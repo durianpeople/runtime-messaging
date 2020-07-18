@@ -1,5 +1,5 @@
 {
-    "name": "durianpeople/laravel-runtime-messaging",
+    "name": "durianpeople/runtime-messaging",
     "description": "Intra-messaging system with runtime storage",
     "type": "library",
     "authors": [
