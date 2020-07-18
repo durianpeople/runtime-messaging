@@ -15,5 +15,8 @@
         "psr-4": {
             "Durianpeople\\Messaging\\": "src/"
         }
-    }
+    },
+    "license": [
+        "MIT"
+    ]
 }
