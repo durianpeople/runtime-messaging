@@ -21,11 +21,11 @@ class Messaging
     public static function send(string $to_channel, $message)
     {
         /** @var Messaging $channel */
-        $channel = self::$channels[$to_channel];
-        if (isset($channel)) {
+        if (isset(self::$channels[$to_channel])) {
+            $channel = self::$channels[$to_channel];
             call_user_func($channel->onReceive, $message);
         } else {
-            throw new RuntimeException("Channel not found");
+            throw new RuntimeException("Channel $to_channel not found");
         }
     }
 
